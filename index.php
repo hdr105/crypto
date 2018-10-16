@@ -25,7 +25,36 @@ require_once("header.php");
                       $('#<your-new-id-name>').magenCryptoLiveMarketCap({...})-->
                         <div id="magen-plugin" class="pt30 pb30"></div> 
                         <!-- END Magen plugin DOM -->
-                         <div class="pt30 sub-email-div"><div class="pt30 sub-email-inside-div"></div></div>
+                         <div class="pt30 sub-email-div"><div class="pt30 sub-email-inside-div">
+                          
+                          <div class="row" style="margin-left: 28%;">
+                            <div class="col-md-12">
+                              <form class="form-inline">
+                               <div class="input-group">
+                            <input type="email" class="form-control" size="50" placeholder="Your Email Address" required>
+                                <div class="input-group-btn">
+                                  <button type="button" class="btn btn-danger" style="background-color: black">Subscribe</button>
+                                     </div>
+                                      </div>
+                                          </form>
+                            </div>
+                          </div><br>
+
+                          <div><p class=" lead text-center"><a href="mailto:contact@coinmarketcaptrader.com">contact@coinmarketcaptrader.com</a></p></div>
+                          <div><p class="text-center"><img src="/crypto/assets/images/copy.jpg" width="24px"; height:"24px;"> 2017 - 2019</p></div>
+
+
+
+
+
+
+
+
+
+
+                         </div>
+                         </div>
+                       </div>
                       </div>
                       <!-- END Container -->
 
