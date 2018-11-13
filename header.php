@@ -79,7 +79,7 @@
 
       <!-- END donate button -->
       <div class="col-md-2 home-icon">
-          <div><a href="index.php"><i class="fa fa-home"></i></a></div>
+          <div><a href="index.php"><i class="fa fa-home" id="icon"style="margin-left: -20px;"></i></a></div>
           
         </div>
       <!-- START Site logo -->
@@ -92,7 +92,7 @@
         <!-- START currencies select -->
         <!-- IMPORTANT Note: This required where currencies options it show to user -->
         
-      <a class="btn btn-black" href='buy-sell.php'>Login / Register</a>
+      <a class="btn" id="change-btn" href='buy-sell.php'>Login / Register</a>
        
         <!-- END Languages select -->
       </div>
@@ -132,6 +132,7 @@
 <div class="subnav">
   <button class="subnavbtn">Analysis <i class="fa fa-caret-down"></i></button>
   <div class="subnav-content">
+     <div><a href="buy-sell.php">Analysis</a></div>
     <div><a href="buy-sell.php">Trading Signals</a></div>
     <div><a href="buy-sell.php">Robot Market Place</a></div>
     <div><a href="buy-sell.php">Downloads</a></div>
@@ -140,18 +141,21 @@
 <div class="subnav">
   <button class="subnavbtn">Fiat To Crypto Crypto To Fiat<i class="fa fa-caret-down"></i></button>
   <div class="subnav-content">
+     <div><a href="buy-sell.php">Fiat To Crypto Crypto To Fiat</a></div>
     <div><a href="buy-sell.php">Buy/Sell Large Quantity Of Crypto</a></div>
   </div>
 </div>
 <div class="subnav">
   <button class="subnavbtn">ICO Coin/Token Listings <i class="fa fa-caret-down"></i></button>
   <div class="subnav-content">
+     <div ><a href="buy-sell.php">ICO Coin/Token Listings</a></div>
     <div ><a href="buy-sell.php">List Your Coins/Token All Coins/Tokens Accepted</a></div>
   </div>
 </div>
 <div class="subnav">
   <button class="subnavbtn">Road to 100% Decentralization <i class="fa fa-caret-down"></i></button>
   <div class="subnav-content">
+     <div ><a href="buy-sell.php">Road to 100% Decentralization</a></div>
     <div ><a href="buy-sell.php">Coin Market Capitalization Rankings Accelerator Program</a></div>
   </div>
 </div>

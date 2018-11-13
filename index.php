@@ -27,35 +27,70 @@ require_once("header.php");
                         <!-- END Magen plugin DOM -->
                          <div class="pt30 sub-email-div"><div class="pt30 sub-email-inside-div">
                           
-                          <div class="row" style="margin-left: 28%;">
-                            <div class="col-md-12">
-                              <form class="form-inline">
+                          <div class="row" style="margin-top: 100px;">
+                            <div class="col-md-3 col-md-offset-3 col-sm-offset-0">
+                            </div>
+                            <div class="col-md-6">
+                              <form class="form-inline" style="margin: auto;">
                                <div class="input-group">
-                            <input type="email" class="form-control" size="50" placeholder="Your Email Address" required>
+                            <input style="height:45px" type="email" class="form-control" size="100%" placeholder="Your Email Address" required>
                                 <div class="input-group-btn">
-                                  <button type="button" class="btn btn-danger" style="background-color: black">Subscribe</button>
+                                  <button type="button" class="btn" style="background-color: black; color: white;">Subscribe</button>
                                      </div>
                                       </div>
                                           </form>
+
+                            </div>
+                            <div class="col-md-3 col-md-offset-3 col-sm-offset-0">
                             </div>
                           </div><br>
 
-                          <div><p class=" lead text-center"><a href="mailto:contact@coinmarketcaptrader.com">contact@coinmarketcaptrader.com</a></p></div>
-                          <div><p class="text-center"><img src="/crypto/assets/images/copy.jpg" width="24px"; height:"24px;"> 2017 - 2019</p></div>
 
 
 
+                          <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3 col-md-offset-3 col-sm-offset-0" >
+                            </div>
+                            
+                           <div class="col-md-6" style="text-align: center;" >
+                            <p><img src="/crypto/assets/images/appStore.png" width="25%"; height="50px;" >
+                            <img src="/crypto/assets/images/windowStore.png" width="25%"; height="50px;" >
+                          <img src="/crypto/assets/images/googleplay.png" width="25%"; height="50px;" ></p></div>
+
+                              <div class="col-md-3 col-md-offset-3 col-sm-offset-0">
+                            </div> 
 
 
-
-
-
-
-
-                         </div>
-                         </div>
-                       </div>
+                        
                       </div>
+                         
+
+                         <div class="row" style="margin-top:5px;margin-bottom: -28px;">
+                          
+                           <div class="col-md-4"><p style="padding-top: 5px;"><a href="mailto:contact@coinmarketcaptrader.com">contact@coinmarketcaptrader.com</a></p></div>
+
+                           <div class="col-md-4 col-md-offset-4 col-sm-offset-0">
+                            <p></p>
+                            </div>
+
+                            <div class="col-md-4"><p style="font-size: 9px; float: right; padding-top: 5px;">Copyright Protected<img src="/crypto/assets/images/copy.jpg" width="20x"; height:"17px;"> 2020-3017 CMT CoinMarketcapTrader All Rights Reserved</p></div>
+                    
+
+
+                        
+                      </div>
+
+
+
+
+
+
+
+
+
+                         
+                         
+                                             </div>
                       <!-- END Container -->
 
                     </section>
@@ -69,7 +104,7 @@ require_once("header.php");
 <?php
 require_once("footer.php");
 ?>
-<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+<a id="back2Top" title="Back to top" href="#"><img src="assets/images/icontop.jpg" style="width: 33px; height: 33px;"></a>
 
 </body>
 
