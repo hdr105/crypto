@@ -105,7 +105,7 @@
 			success: function(e) {
 				$.each(e, function(e, a) {
 					var t = u(a);
-					console.log(a);
+					//console.log(a);
 					t.appendTo("#MCCLMC-crypto-data-list tbody"), t.on("click", function() {
 						p(a.short)
 					})
